@@ -6,10 +6,11 @@
     <title>To-Do List - Add Task</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        /* margin from all sides if i use margin */
         #taskInput { padding: 5px; width: 200px; }
         #addTask { padding: 5px 10px; cursor: pointer; }
-        ul { list-style: none; padding: 0; margin-top: 20px; }
-        li { padding: 8px; background: lightgray; margin: 5px; border-radius: 5px; }
+        ul { list-style: none; padding: 0; margin-top: 200px; }
+        li { padding: 8px; background: lightgray; margin: 5px; border-radius: 50px; }
     </style>
 </head>
 <body>
@@ -18,7 +19,8 @@
     <input type="text" id="taskInput" placeholder="Enter a task">
     <button id="addTask">Add Task</button>
 
-    <ul id="taskList"></ul>
+    <ul id="taskList">
+    </ul>
     <script src="script.js"></script>
 </body>
 </html>
